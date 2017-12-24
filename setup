@@ -1,0 +1,3 @@
+#!/data/data/com.termux/files/usr/bin/bash
+chmod +x androtoolkit.sh
+ln -s $HOME/androtoolkit/androtoolkit.sh $PREFIX/bin/androtoolkit
