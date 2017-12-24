@@ -30,7 +30,8 @@ echo -e " 2) Install ngrok (important for hacking android on WAN)"
 echo -e " 3) Install metasploit"
 echo -e " 4) About"
 echo -e " 5) Credits"
-echo -e " 6) Contact hax4us$reset"
+echo -e " 6) Contact hax4us"
+echo -e " 7) Exit$reset"
 echo
 read option
 if [[ $option == "" ]];
@@ -195,5 +196,7 @@ case "$option" in
 	5) credits
 		;;
 	6) contact
+		;;
+	7) exit
 		;;
 esac
