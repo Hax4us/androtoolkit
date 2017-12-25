@@ -159,6 +159,7 @@ about()
 	echo -e "$yello It's a tool to provide friendly user interface :) My aim behind this tool is to make things easy like payload creation , metasploit installation and ngrok installation & maybe i can update my tool with some extra features$reset"
 	echo
 	echo -e "$yellow press ENTER"
+	read tmpp
 	androtoolkit
 }
 
@@ -167,6 +168,7 @@ credits()
 echo -e "$yellow Credit goes to Lokesh @Hax4Us$reset"
 echo
 echo -e "$yellow press ENTER"
+read tmp
 androtoolkit
 }
 
